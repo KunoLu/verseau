@@ -1,0 +1,35 @@
+2020-07-20 14:33:27,316 - diskAlert.py[line:164] - DEBUG: 服务器类型为：[应用服务器]，服务器IP为：[47.101.46.100]，登录用户为：[jmeter]，登录密码为：[jmeter@2020]，远程执行的命令为：[df -mP]
+2020-07-20 14:33:27,316 - diskAlert.py[line:167] - DEBUG: 执行结果如下：
+Filesystem     1048576-blocks  Used Available Capacity Mounted on
+devtmpfs                 1885     0      1885       0% /dev
+tmpfs                    1895     0      1895       0% /dev/shm
+tmpfs                    1895     2      1894       1% /run
+tmpfs                    1895     0      1895       0% /sys/fs/cgroup
+/dev/vda1               50268 17445     30555      37% /
+tmpfs                     379     0       379       0% /run/user/0
+tmpfs                     379     0       379       0% /run/user/1001
+2020-07-20 14:33:27,997 - diskAlert.py[line:164] - DEBUG: 服务器类型为：[应用服务器]，服务器IP为：[47.101.46.100]，登录用户为：[locust]，登录密码为：[locust@2020]，远程执行的命令为：[df -mP]
+2020-07-20 14:33:27,997 - diskAlert.py[line:167] - DEBUG: 执行结果如下：
+Filesystem     1048576-blocks  Used Available Capacity Mounted on
+devtmpfs                 1885     0      1885       0% /dev
+tmpfs                    1895     0      1895       0% /dev/shm
+tmpfs                    1895     2      1894       1% /run
+tmpfs                    1895     0      1895       0% /sys/fs/cgroup
+/dev/vda1               50268 17445     30555      37% /
+tmpfs                     379     0       379       0% /run/user/0
+tmpfs                     379     0       379       0% /run/user/1000
+2020-07-20 14:33:36,617 - diskAlert.py[line:176] - INFO: 单机版弹窗警报执行完毕...
+2020-07-20 14:33:36,618 - diskAlert.py[line:177] - DEBUG: 结果如下：
+Linux服务器（应用服务器） [47.101.46.100] 的磁盘检查信息如下：
+指定文件系统分区 [/dev/vda1] 的磁盘使用率未超过90%阈值，该磁盘当前的使用率为：37%
+
+Linux服务器（应用服务器） [47.101.46.100] 的磁盘检查信息如下：
+文件系统分区 [devtmpfs] 的磁盘使用率未超过90%阈值，该磁盘当前的使用率为：0%
+文件系统分区 [tmpfs] 的磁盘使用率未超过90%阈值，该磁盘当前的使用率为：0%
+文件系统分区 [tmpfs] 的磁盘使用率未超过90%阈值，该磁盘当前的使用率为：1%
+文件系统分区 [tmpfs] 的磁盘使用率未超过90%阈值，该磁盘当前的使用率为：0%
+文件系统分区 [/dev/vda1] 的磁盘使用率未超过90%阈值，该磁盘当前的使用率为：37%
+文件系统分区 [tmpfs] 的磁盘使用率未超过90%阈值，该磁盘当前的使用率为：0%
+文件系统分区 [tmpfs] 的磁盘使用率未超过90%阈值，该磁盘当前的使用率为：0%
+
+
