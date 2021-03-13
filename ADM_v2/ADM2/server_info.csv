@@ -1,0 +1,4 @@
+mon_type,ip,port,username,passwd,local_path,remote_path,start_path,server_kind
+miniconda2,47.101.46.100,22,locust,locust,D:\MyMon.zip,/root/MyMon.zip,/root/MyMon/miniconda2,app
+gather,47.101.46.101,22,root,root1234,D:\MyMon.zip,/root/MyMon.zip,/root/MyMon/gather/bin,app
+amon,47.101.46.102,22,root,root1234,D:\MyMon.tar,/root/MyMon.tar,/root/MyMon/amon_aix_1024,
